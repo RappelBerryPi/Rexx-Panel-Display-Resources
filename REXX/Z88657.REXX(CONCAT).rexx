@@ -1,3 +1,4 @@
+
 /******************************** REXX ********************************/
 /* PROGRAMMER:    RappelBerryPi                                       */
 /* CREATION DATE: 11/16/2021                                          */
@@ -138,7 +139,10 @@ exit 0
 
 ShowHelp:
     SAY ""
-    SAY "CONCAT FILE PDS POSITION LIST"
+    SAY ""
+    SAY ""
+    SAY ""
+    SAY "USAGE: CONCAT 'FILE' 'PDS' 'POSITION' 'LIST'"
     SAY "  - "
     SAY "  - FILE - The name of the FILE that needs to have the PDS added to"
     SAY "  -        it. Examples include ISPPLIB, SYSPROC, etc."
@@ -146,7 +150,7 @@ ShowHelp:
     SAY "  -        FILE. Examples include '&USERID.ISPPLIB', '&USERID.REXX',"
     SAY "  -        '&USERID.ISPSLIB', etc."
     SAY "  - POSITION - The position to insert PDS in the FILE CONCAT."
-    SAY "  -            Examples include 'FIRST', 'LAST', '2', etc."
+    SAY "  -            Examples include 'FIRST', 'LAST', '2', -1, etc."
     SAY "  -            The Default Position is 'FIRST'."
     SAY "  - LIST - The trace option. Valid values are TRACE and LIST."
     SAY "  -        TRACE will allow you to do an interactive trace."
