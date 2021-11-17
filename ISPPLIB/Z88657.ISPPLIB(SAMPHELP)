@@ -1,0 +1,10 @@
+)ATTR DEFAULT(%+_)
+)BODY EXPAND($$)
+%-$-$- SAMPLE PANEL -$-$-%
+%COMMAND ===>_ZCMD                                                            %
++                                                                             +
++ This is a sample help panel. There isn't a lot to put here, but it shows    +
++ how much you can accomplish.                                                +
++                                                                             +
++                                                                             +
+)END

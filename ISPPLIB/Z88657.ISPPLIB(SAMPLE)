@@ -1,0 +1,17 @@
+)ATTR DEFAULT(%+_)
+)BODY EXPAND($$)
+%-$-$- SAMPLE PANEL -$-$-%
+%COMMAND ===>_ZCMD                                                            %
++                                                                             +
++ Welcome. This is a sample panel. Put some input below:                      +
++                                                                             +
++                                                                             +
++ INPUT => _Z                                           +                     +
++                                                                             +
++                                                                             +
+)INIT
+ .ZVARS = '( INPUT)'
+ .HELP  = SAMPHELP
+)PROC
+ VER(&INPUT, NB)
+)END
