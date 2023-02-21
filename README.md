@@ -19,3 +19,8 @@ the concatenate program as of today that checks for the existence of any / all o
 ## Note about calling concat
 The parameters don't actually need quotes, I chose to add them to let you know how to run it if you feel the need to
 have quotes.
+
+## COBOL program.
+There's not a lot on executing panels with COBOL and for good reason. It's so much easier to use REXX. However, I
+got curious and dove deep into figuring it out. This is the simplist I could make a COBOL program to do exactly what
+the REXX program does.
